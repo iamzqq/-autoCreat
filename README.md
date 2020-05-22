@@ -20,7 +20,3 @@ lsn create projectname
 ```
 lsn init -u $username -t $token
 ```
-
-### 项目启动
-
-lbc dev -p 8000
