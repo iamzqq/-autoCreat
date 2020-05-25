@@ -34,7 +34,7 @@ module.exports = {
     },
     plugins: [new VueLoaderPlugin()  //vue-loader插件加载方式
         ,new HtmlWebpackPlugin({ //此部分新增加
-            template: './index.html',//需要自动注入的模板的文件名称
+            template: './public/index.html',//需要自动注入的模板的文件名称
             inject: true//是否自动注入生成后的文件
         })
     ],
